@@ -12,6 +12,7 @@ head(TL84)
 attributes(TL84)
 #Inspect the nodes
 nodesTL84<-data.frame(TL84$nodes)
+linksTL84<-data.frame(TL84$trophic.links) # define the trophic level of a taxon
 
 #plot the food web 
 cheddar::PlotWebByLevel(TL84,
