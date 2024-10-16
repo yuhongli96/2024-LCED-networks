@@ -35,6 +35,7 @@ cheddar::PlotWebByLevel(TL84,
 
 # show a weighted network
 data(Benguela, package="cheddar")
+nodesBenguela<-data.frame(Benguela$nodes)
 cheddar::PlotWebByLevel(Benguela,
                         pch=16,
                         show.nodes.as="labels",
