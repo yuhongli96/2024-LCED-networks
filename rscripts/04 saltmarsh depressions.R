@@ -3,6 +3,7 @@
 # clear everything in the R environment
 rm(list = ls())
 renv::restore()  # restore the library
+renv::snapshot()
 
 # load libraries
 library(tidyverse)
